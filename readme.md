@@ -53,7 +53,7 @@ INSERT into OWNERS (name, age) VALUES ('John', 33);
 INSERT into OWNERS (name, age) VALUES ('Jane', 43);
 
 11. Change Jane's age to 30. 
-UPDATE owners SET age = 30 WHERE age = 43 and WHERE name = Jane;
+UPDATE owners SET age = 30 WHERE age = 43 and name = Jane;
 
 12. Change Jane's name to Janet. 
 UPDATE owners SET name = Janet WHERE name = Jane;
